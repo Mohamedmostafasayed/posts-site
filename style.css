@@ -1,0 +1,141 @@
+*{
+    border: none;
+    outline: none;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Playwrite AU QLD", cursive;
+}
+
+body{
+    height: 100svh;
+    max-height: 100svh;
+    max-width: 100svw;
+    display: grid;
+    grid-template-columns: 1fr;  
+    grid-template-rows: 1fr 1fr 70px; 
+    background-image: linear-gradient(to right bottom , #FFF6B7 , #F6416C);
+    
+}
+header{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+background-image: linear-gradient(to right bottom , #FFF6B7 , #F6416C);
+gap: 10px;
+padding: 10px;
+
+}
+
+.searchInput{
+    width: 30%;
+    border: 4px solid rgb(145, 139, 139);
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 15px;
+    color: rgb(7, 92, 126);
+   
+}
+
+.hashTags{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+  
+}
+
+.tags:hover{
+    background-color: rgb(180, 16, 49);
+    border: 1px solid crimson;
+}
+
+.tags{
+    color: aliceblue;
+    background-color: rgba(245, 93, 93, 0.829);
+    padding: 5px 10px;
+    border: 1px solid rgba(28, 25, 29, 0.706);
+    border-radius: 10px;
+}
+
+
+
+main{
+    background-image: linear-gradient(to right bottom , #FFF6B7 , #F6416C);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.cardDiv{
+    background-color :  rgb(202, 184, 195);
+    width: 55%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+}
+
+
+
+.headerposts{
+    font-weight: bold;
+    text-align: center;
+    color:rgb(7, 92, 126);
+    margin-bottom: 5px;
+}
+
+.paragraphposts{
+    text-align: left;
+    color: rgb(27, 27, 27);
+}
+
+
+.tagsDiv{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+
+.tagspan{
+    border: 1px solid rgba(62, 55, 63, 0.393);
+    background-color: rgba(233, 135, 200, 0.884);
+    border-radius: 30px;
+    padding: 2px;
+}
+
+.copybtn{
+    border: 1px solid black;
+    padding: 10px 10px;
+    border-radius: 15px;
+    color: black;
+    position: absolute;
+    right: 0px;
+}
+
+.copybtn:hover{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(116, 186, 207, 0.521);
+ 
+
+}
+footer{
+    text-align: center;
+    color: rgb(70, 4, 4);
+    padding-top: 15px;
+
+}
+
+   
